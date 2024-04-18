@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-04-18T05:19:37.692Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="fF5PJmI7P6UIlftaqc5q" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-18T05:27:02.646Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="0kISiL6dFta9VQ2DX3AB" version="24.2.5" type="github">
   <diagram name="Page-1" id="SzYmY_o3JVneql085Cdd">
-    <mxGraphModel dx="3119" dy="774" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2879" dy="774" grid="1" gridSize="36" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="EIeVDgx_IAt_xBQd1_0A-1" value="Client" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="72" y="317" width="180" height="120" as="geometry" />
+          <mxGeometry x="108" y="287" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EIeVDgx_IAt_xBQd1_0A-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="EIeVDgx_IAt_xBQd1_0A-1" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -47,7 +47,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EIeVDgx_IAt_xBQd1_0A-15" value="Staff" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="150" width="180" height="120" as="geometry" />
+          <mxGeometry x="108" y="144" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EIeVDgx_IAt_xBQd1_0A-16" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="EIeVDgx_IAt_xBQd1_0A-15" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -89,7 +89,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EIeVDgx_IAt_xBQd1_0A-28" value="Therapy Centre" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="522" width="180" height="150" as="geometry" />
+          <mxGeometry x="108" y="432" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="EIeVDgx_IAt_xBQd1_0A-29" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="EIeVDgx_IAt_xBQd1_0A-28" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -149,7 +149,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EIeVDgx_IAt_xBQd1_0A-54" value="Therapy Type" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-609" y="256" width="180" height="90" as="geometry" />
+          <mxGeometry x="-468" y="227" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="EIeVDgx_IAt_xBQd1_0A-55" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="EIeVDgx_IAt_xBQd1_0A-54" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -178,7 +178,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EIeVDgx_IAt_xBQd1_0A-67" value="Appointment" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-295" y="305" width="180" height="270" as="geometry" />
+          <mxGeometry x="-180" y="227" width="180" height="270" as="geometry" />
         </mxCell>
         <mxCell id="EIeVDgx_IAt_xBQd1_0A-68" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="EIeVDgx_IAt_xBQd1_0A-67" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -285,7 +285,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EIeVDgx_IAt_xBQd1_0A-93" value="Centre Staff" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="359" y="317" width="180" height="90" as="geometry" />
+          <mxGeometry x="392" y="287" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="EIeVDgx_IAt_xBQd1_0A-94" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="EIeVDgx_IAt_xBQd1_0A-93" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -323,7 +323,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EIeVDgx_IAt_xBQd1_0A-112" value="Centre Equipment" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="-295" y="628" width="180" height="120" as="geometry" />
+          <mxGeometry x="-180" y="550" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EIeVDgx_IAt_xBQd1_0A-179" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="EIeVDgx_IAt_xBQd1_0A-112" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -365,7 +365,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EIeVDgx_IAt_xBQd1_0A-131" value="Qualification" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="-308" y="30" width="180" height="120" as="geometry">
+          <mxGeometry x="-180" y="72" width="180" height="120" as="geometry">
             <mxRectangle x="-308" y="30" width="101" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -457,7 +457,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EIeVDgx_IAt_xBQd1_0A-162" value="Equipment" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-605" y="582" width="180" height="120" as="geometry" />
+          <mxGeometry x="-468" y="550" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EIeVDgx_IAt_xBQd1_0A-163" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="EIeVDgx_IAt_xBQd1_0A-162" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -514,13 +514,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EIeVDgx_IAt_xBQd1_0A-208" value="&lt;div&gt;Assumption:&lt;/div&gt;&lt;div&gt;An appointment will only have only staff member linked in the database,&lt;/div&gt;&lt;div&gt;even if others are present&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="169" y="47" width="398" height="55" as="geometry" />
+          <mxGeometry x="358" y="144" width="398" height="55" as="geometry" />
         </mxCell>
         <mxCell id="EIeVDgx_IAt_xBQd1_0A-209" value="&lt;div&gt;Assumption:&lt;/div&gt;&lt;div&gt;Staff can have more experience in one therapy type than another,&lt;/div&gt;&lt;div&gt;which requires a joining table.&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-719" y="3" width="366" height="55" as="geometry" />
+          <mxGeometry x="-654" y="137" width="366" height="55" as="geometry" />
         </mxCell>
         <mxCell id="EIeVDgx_IAt_xBQd1_0A-210" value="&lt;div&gt;Assumption:&lt;/div&gt;&lt;div&gt;Staff can work at multiple centres&lt;/div&gt;&lt;div&gt;What therapy is available is directly linked to the staff available&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="476" y="458" width="350" height="55" as="geometry" />
+          <mxGeometry x="383" y="407" width="350" height="55" as="geometry" />
         </mxCell>
         <mxCell id="EIeVDgx_IAt_xBQd1_0A-211" value="Equipment" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
           <mxGeometry x="-965" y="873" width="180" height="120" as="geometry" />
@@ -642,7 +642,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pg8Wm6lZRvaT1l2Cp9-K-1" value="Assumption:&lt;div&gt;Staff experience should be per therapy type,&lt;/div&gt;&lt;div&gt;instead of overall&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-727" y="96" width="253" height="55" as="geometry" />
+          <mxGeometry x="-295" width="253" height="55" as="geometry" />
         </mxCell>
         <mxCell id="pg8Wm6lZRvaT1l2Cp9-K-8" value="Message System" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
           <mxGeometry x="467" y="620" width="180" height="150" as="geometry" />
