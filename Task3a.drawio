@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-18T05:33:00.364Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="4iGoXUW07SeU0kC6KVb4" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-18T23:37:14.369Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="0zPuqns5frANhmJUIn5b" version="24.2.5" type="github">
   <diagram name="Page-1" id="SzYmY_o3JVneql085Cdd">
-    <mxGraphModel dx="2879" dy="774" grid="1" gridSize="36" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2683" dy="645" grid="1" gridSize="36" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -89,7 +89,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EIeVDgx_IAt_xBQd1_0A-28" value="Therapy Centre" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="108" y="432" width="180" height="150" as="geometry" />
+          <mxGeometry x="108" y="580" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="EIeVDgx_IAt_xBQd1_0A-29" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="EIeVDgx_IAt_xBQd1_0A-28" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -704,6 +704,12 @@
         </mxCell>
         <mxCell id="pg8Wm6lZRvaT1l2Cp9-K-25" value="Assumption:&lt;div&gt;Due to the requirement of clients having very minimal personal data&lt;/div&gt;&lt;div&gt;in the database, I assume that only name and phone number need to be recorded,&lt;/div&gt;&lt;div&gt;for appointment details and the messaging system&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-369" y="894" width="456" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pg8Wm6lZRvaT1l2Cp9-K-29" value="Assumption:&lt;div&gt;phone and ID number should be stored as VARCHAR,&lt;/div&gt;&lt;div&gt;as they should never be used AS numbers in the first place&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="74" y="985" width="324" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="pg8Wm6lZRvaT1l2Cp9-K-30" value="Assumption:&lt;div&gt;A person might have an extremely long name or only a first name&lt;/div&gt;&lt;div&gt;so only the name attribute will be used&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="308" y="13" width="360" height="72" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
