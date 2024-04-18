@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-18T02:46:05.093Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="FlTSmlOOFTKgTuywfe87" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-18T02:50:11.342Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="qMnBmFDPDWDa_Nw2_Sg4" version="24.2.5" type="github">
   <diagram name="Page-1" id="SzYmY_o3JVneql085Cdd">
     <mxGraphModel dx="2853" dy="774" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -704,6 +704,9 @@
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pg8Wm6lZRvaT1l2Cp9-K-24" value="Assumption:&lt;div&gt;The client asked for a &#39;date stamp&#39; attribute in the Message System entity.&lt;/div&gt;&lt;div&gt;This kind of data field does not exist, and I must assume &#39;time stamp&#39; was intended instead&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="72" y="811" width="500" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
