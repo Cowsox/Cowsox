@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-19T08:14:07.789Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="mDMfm0n-L1V3ZXnbG58g" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-19T08:52:00.044Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="-Lem-OuMKZb6dd0tv_Ft" version="24.2.5" type="github">
   <diagram name="Page-1" id="SzYmY_o3JVneql085Cdd">
-    <mxGraphModel dx="3056" dy="911" grid="1" gridSize="36" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3156" dy="1548" grid="1" gridSize="36" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -543,137 +543,6 @@
         <mxCell id="EIeVDgx_IAt_xBQd1_0A-195" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=0;startArrow=ERmandOne;startFill=0;" parent="1" source="EIeVDgx_IAt_xBQd1_0A-29" target="EIeVDgx_IAt_xBQd1_0A-190" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-208" value="&lt;div&gt;Assumption:&lt;/div&gt;&lt;div&gt;An appointment will only have only staff member linked in the database,&lt;/div&gt;&lt;div&gt;even if others are present&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1248" y="550" width="398" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-209" value="&lt;div&gt;Assumption:&lt;/div&gt;&lt;div&gt;Staff can have more experience in one therapy type than another,&lt;/div&gt;&lt;div&gt;which requires a joining table.&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1216" y="396" width="366" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-210" value="&lt;div&gt;Assumption:&lt;/div&gt;&lt;div&gt;Staff can work at multiple centres&lt;/div&gt;&lt;div&gt;What therapy is available is directly linked to the staff available&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1200" y="605" width="350" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-211" value="Equipment" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-965" y="873" width="180" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-212" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="EIeVDgx_IAt_xBQd1_0A-211" vertex="1">
-          <mxGeometry y="30" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-213" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="EIeVDgx_IAt_xBQd1_0A-212" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-214" value="equipmentID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" parent="EIeVDgx_IAt_xBQd1_0A-212" vertex="1">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-215" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="EIeVDgx_IAt_xBQd1_0A-211" vertex="1">
-          <mxGeometry y="60" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-216" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="EIeVDgx_IAt_xBQd1_0A-215" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-217" value="therapyName" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="EIeVDgx_IAt_xBQd1_0A-215" vertex="1">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-218" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="EIeVDgx_IAt_xBQd1_0A-211" vertex="1">
-          <mxGeometry y="90" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-219" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="EIeVDgx_IAt_xBQd1_0A-218" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-220" value="name" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="EIeVDgx_IAt_xBQd1_0A-218" vertex="1">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-221" value="Equipment Value" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1234" y="873" width="180" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-222" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="EIeVDgx_IAt_xBQd1_0A-221" vertex="1">
-          <mxGeometry y="30" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-223" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="EIeVDgx_IAt_xBQd1_0A-222" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-224" value="valueID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" parent="EIeVDgx_IAt_xBQd1_0A-222" vertex="1">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-225" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="EIeVDgx_IAt_xBQd1_0A-221" vertex="1">
-          <mxGeometry y="60" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-226" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="EIeVDgx_IAt_xBQd1_0A-225" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-227" value="attributeID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="EIeVDgx_IAt_xBQd1_0A-225" vertex="1">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-228" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="EIeVDgx_IAt_xBQd1_0A-221" vertex="1">
-          <mxGeometry y="90" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-229" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="EIeVDgx_IAt_xBQd1_0A-228" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-230" value="equipmentID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="EIeVDgx_IAt_xBQd1_0A-228" vertex="1">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-231" value="Equipment Attribute" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1569" y="873" width="180" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-232" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="EIeVDgx_IAt_xBQd1_0A-231" vertex="1">
-          <mxGeometry y="30" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-233" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="EIeVDgx_IAt_xBQd1_0A-232" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-234" value="attributeID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" parent="EIeVDgx_IAt_xBQd1_0A-232" vertex="1">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-235" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="EIeVDgx_IAt_xBQd1_0A-231" vertex="1">
-          <mxGeometry y="60" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-236" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="EIeVDgx_IAt_xBQd1_0A-235" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-237" value="name" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="EIeVDgx_IAt_xBQd1_0A-235" vertex="1">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-241" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EIeVDgx_IAt_xBQd1_0A-232" target="EIeVDgx_IAt_xBQd1_0A-225" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="EIeVDgx_IAt_xBQd1_0A-242" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EIeVDgx_IAt_xBQd1_0A-212" target="EIeVDgx_IAt_xBQd1_0A-228" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="pg8Wm6lZRvaT1l2Cp9-K-1" value="Assumption:&lt;div&gt;Staff experience should be per therapy type,&lt;/div&gt;&lt;div&gt;instead of overall&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1103" y="442" width="253" height="55" as="geometry" />
-        </mxCell>
         <mxCell id="pg8Wm6lZRvaT1l2Cp9-K-8" value="Message System" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
           <mxGeometry x="-101" y="186" width="180" height="120" as="geometry" />
         </mxCell>
@@ -715,18 +584,6 @@
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="pg8Wm6lZRvaT1l2Cp9-K-24" value="Assumption:&lt;div&gt;The client asked for a &#39;date stamp&#39; attribute in the Message System entity.&lt;/div&gt;&lt;div&gt;This kind of data field does not exist, and I must assume &#39;time stamp&#39; was intended instead&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1350" y="199" width="500" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="pg8Wm6lZRvaT1l2Cp9-K-25" value="Assumption:&lt;div&gt;Due to the requirement of clients having very minimal personal data&lt;/div&gt;&lt;div&gt;in the database, I assume that only name and phone number need to be recorded,&lt;/div&gt;&lt;div&gt;for appointment details and the messaging system&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1306" y="254" width="456" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="pg8Wm6lZRvaT1l2Cp9-K-29" value="Assumption:&lt;div&gt;phone and ID number should be stored as VARCHAR,&lt;/div&gt;&lt;div&gt;as they should never be used AS numbers in the first place&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1174" y="324" width="324" height="72" as="geometry" />
-        </mxCell>
-        <mxCell id="pg8Wm6lZRvaT1l2Cp9-K-30" value="Assumption:&lt;div&gt;A person might have an extremely long name or only a first name&lt;/div&gt;&lt;div&gt;so only the name attribute will be used&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1210" y="478" width="360" height="72" as="geometry" />
         </mxCell>
         <mxCell id="FgGZcKVpPP5EO89AvBf_-10" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=0;startArrow=ERmandOne;startFill=0;" parent="1" source="EIeVDgx_IAt_xBQd1_0A-246" target="FgGZcKVpPP5EO89AvBf_-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
